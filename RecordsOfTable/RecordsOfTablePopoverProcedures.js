@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { Row, Col } from 'react-bootstrap';
-import { getDDMMMYYYY } from '../../../utils/time-helpers.utils';
-import { valuesLabels, valuesNames } from '../../theme/plugins/Procedures/forms.config';
+import { getDDMMMYYYY } from '../../../../../utils/time-helpers.utils';
+import { valuesLabels, valuesNames } from '../../../../theme/plugins/Procedures/forms.config';
 
 export default class RecordsOfTablePopoverProcedures extends PureComponent {
   static propTypes = {
