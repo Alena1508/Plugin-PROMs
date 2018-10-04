@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04dc6e55-84b1-446d-a152-b8f5ab1561f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverDiagnosis.js" beforeDir="false" afterPath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverDiagnosis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverEvents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverMedications.js" beforeDir="false" afterPath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverMedications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverReferrals.js" beforeDir="false" afterPath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverReferrals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopover.js" beforeDir="false" afterPath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverVitals.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,22 +24,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="4" />
+          <entry key="js" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="4" />
+          <entry key="JavaScript" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="48" />
+          <entry key="js" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="48" />
+          <entry key="JavaScript" value="58" />
         </counts>
       </usages-collector>
     </session>
@@ -57,11 +55,58 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverEvents.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+            <state relative-caret-position="465">
+              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RecordsOfTable/RecordsOfTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="28" column="91" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#1043#1152#0" expanded="true" />
+                <element signature="e#1247#1356#0" expanded="true" />
+                <element signature="e#1454#1572#0" expanded="true" />
+                <element signature="e#1677#1798#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopover.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#1186#1308#0" expanded="true" />
+                <element signature="e#1409#1531#0" expanded="true" />
+                <element signature="e#1635#1766#0" expanded="true" />
+                <element signature="e#1878#2012#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverVitals.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +123,9 @@
         <option value="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverMedications.js" />
         <option value="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverReferrals.js" />
         <option value="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverEvents.js" />
+        <option value="$PROJECT_DIR$/RecordsOfTable/RecordsOfTable.js" />
+        <option value="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopover.js" />
+        <option value="$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverVitals.js" />
       </list>
     </option>
   </component>
@@ -151,12 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538653338956</updated>
       <workItem from="1538653340365" duration="117000" />
-      <workItem from="1538655173252" duration="792000" />
+      <workItem from="1538655173252" duration="1364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="909000" />
+    <option name="totallyTimeSpent" value="1481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="0" />
@@ -216,8 +264,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverEvents.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        <state relative-caret-position="465">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecordsOfTable/RecordsOfTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="28" column="91" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#1043#1152#0" expanded="true" />
+            <element signature="e#1247#1356#0" expanded="true" />
+            <element signature="e#1454#1572#0" expanded="true" />
+            <element signature="e#1677#1798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#1186#1308#0" expanded="true" />
+            <element signature="e#1409#1531#0" expanded="true" />
+            <element signature="e#1635#1766#0" expanded="true" />
+            <element signature="e#1878#2012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecordsOfTable/RecordsOfTablePopoverVitals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

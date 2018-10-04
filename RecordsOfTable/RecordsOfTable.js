@@ -4,29 +4,29 @@ import _ from 'lodash/fp';
 import classNames from 'classnames';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import SelectFormGroup from '../SelectFormGroup';
+import SelectFormGroup from '../../../../form-fields/SelectFormGroup';
 import RecordsOfTablePopover from './RecordsOfTablePopover';
-import Spinner from '../../ui-elements/Spinner/Spinner';
+import Spinner from '../../../../ui-elements/Spinner/Spinner';
 import { valuesNames, valuesLabels, defaultTypesOptions } from './forms.config';
-import { getDDMMMYYYY } from '../../../utils/time-helpers.utils';
-import { fetchPatientMedicationsRequest } from '../../pages/Medications/ducks/fetch-patient-medications.duck';
-import { fetchPatientDiagnosesRequest } from '../../pages/Diagnosis/ducks/fetch-patient-diagnoses.duck';
-import { patientDiagnosesSelector } from '../../pages/Diagnosis/selectors';
-import { patientMedicationsSelector } from '../../pages/Medications/selectors';
+import { getDDMMMYYYY } from '../../../../../utils/time-helpers.utils';
+import { fetchPatientMedicationsRequest } from '../../../../pages/Medications/ducks/fetch-patient-medications.duck';
+import { fetchPatientDiagnosesRequest } from '../../../../pages/Diagnosis/ducks/fetch-patient-diagnoses.duck';
+import { patientDiagnosesSelector } from '../../../../pages/Diagnosis/selectors';
+import { patientMedicationsSelector } from '../../../../pages/Medications/selectors';
 
 // SILVER-PLUGINS
 // Events
-import { fetchPatientEventsRequest } from '../../theme/plugins/Events/ducks/fetch-patient-events.duck';
-import { patientEventsSelector } from '../../theme/plugins/Events/selectors';
+import { fetchPatientEventsRequest } from '../../../../theme/plugins/Events/ducks/fetch-patient-events.duck';
+import { patientEventsSelector } from '../../../../theme/plugins/Events/selectors';
 // Vitals
-import { fetchPatientVitalsRequest } from '../../theme/plugins/Vitals/ducks/fetch-patient-vitals.duck';
-import { patientVitalsSelector } from '../../theme/plugins/Vitals/selectors';
+import { fetchPatientVitalsRequest } from '../../../../theme/plugins/Vitals/ducks/fetch-patient-vitals.duck';
+import { patientVitalsSelector } from '../../../../theme/plugins/Vitals/selectors';
 // Referrals
-import { fetchPatientReferralsRequest } from '../../theme/plugins/Referrals/ducks/fetch-patient-referrals.duck';
-import { patientReferralsSelector } from '../../theme/plugins/Referrals/selectors';
+import { fetchPatientReferralsRequest } from '../../../../theme/plugins/Referrals/ducks/fetch-patient-referrals.duck';
+import { patientReferralsSelector } from '../../../../theme/plugins/Referrals/selectors';
 // Procedures
-import { fetchPatientProceduresRequest } from '../../theme/plugins/Procedures/ducks/fetch-patient-procedures.duck';
-import { patientProceduresSelector } from '../../theme/plugins/Procedures/selectors';
+import { fetchPatientProceduresRequest } from '../../../../theme/plugins/Procedures/ducks/fetch-patient-procedures.duck';
+import { patientProceduresSelector } from '../../../../theme/plugins/Procedures/selectors';
 
 const PREFIX_POPOVER_ID = 'rot-popover-';
 

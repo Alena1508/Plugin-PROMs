@@ -3,32 +3,32 @@ import PropTypes from 'prop-types';
 import _ from 'lodash/fp';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import Spinner from '../../ui-elements/Spinner/Spinner';
+import Spinner from '../../../../ui-elements/Spinner/Spinner';
 import RecordsOfTablePopoverDiagnosis from './RecordsOfTablePopoverDiagnosis';
 import RecordsOfTablePopoverMedications from './RecordsOfTablePopoverMedications';
 import RecordsOfTablePopoverReferrals from './RecordsOfTablePopoverReferrals';
 import RecordsOfTablePopoverEvents from './RecordsOfTablePopoverEvents';
 import RecordsOfTablePopoverVitals from './RecordsOfTablePopoverVitals';
 import RecordsOfTablePopoverProcedures from './RecordsOfTablePopoverProcedures';
-import { fetchPatientDiagnosesDetailRequest } from '../../pages/Diagnosis/ducks/fetch-patient-diagnoses-detail.duck';
-import { fetchPatientMedicationsDetailRequest } from '../../pages/Medications/ducks/fetch-patient-medications-detail.duck';
-import { patientDiagnosesDetailSelector } from '../../pages/Diagnosis/selectors';
-import { patientMedicationsDetailSelector } from '../../pages/Medications/selectors';
+import { fetchPatientDiagnosesDetailRequest } from '../../../../pages/Diagnosis/ducks/fetch-patient-diagnoses-detail.duck';
+import { fetchPatientMedicationsDetailRequest } from '../../../../pages/Medications/ducks/fetch-patient-medications-detail.duck';
+import { patientDiagnosesDetailSelector } from '../../../../pages/Diagnosis/selectors';
+import { patientMedicationsDetailSelector } from '../../../../pages/Medications/selectors';
 
 // SILVER-PLUGINS
 // Events
-import { fetchPatientEventsDetailRequest } from '../../theme/plugins/Events/ducks/fetch-patient-events-detail.duck';
-import { patientEventsDetailSelector } from '../../theme/plugins/Events/selectors';
+import { fetchPatientEventsDetailRequest } from '../../../../theme/plugins/Events/ducks/fetch-patient-events-detail.duck';
+import { patientEventsDetailSelector } from '../../../../theme/plugins/Events/selectors';
 // Vitals
-import { fetchPatientVitalsDetailRequest } from '../../theme/plugins/Vitals/ducks/fetch-patient-vitals-detail.duck';
-import { patientVitalsDetailSelector } from '../../theme/plugins/Vitals/selectors';
+import { fetchPatientVitalsDetailRequest } from '../../../../theme/plugins/Vitals/ducks/fetch-patient-vitals-detail.duck';
+import { patientVitalsDetailSelector } from '../../../../theme/plugins/Vitals/selectors';
 // Referrals
-import { fetchPatientReferralsDetailRequest } from '../../theme/plugins/Referrals/ducks/fetch-patient-referrals-detail.duck';
-import { patientReferralsDetailSelector } from '../../theme/plugins/Referrals/selectors';
+import { fetchPatientReferralsDetailRequest } from '../../../../theme/plugins/Referrals/ducks/fetch-patient-referrals-detail.duck';
+import { patientReferralsDetailSelector } from '../../../../theme/plugins/Referrals/selectors';
 
 // Procedures
-import { fetchPatientProceduresDetailRequest } from '../../theme/plugins/Procedures/ducks/fetch-patient-procedures-detail.duck';
-import { patientProceduresDetailSelector } from '../../theme/plugins/Procedures/selectors';
+import { fetchPatientProceduresDetailRequest } from '../../../../theme/plugins/Procedures/ducks/fetch-patient-procedures-detail.duck';
+import { patientProceduresDetailSelector } from '../../../../theme/plugins/Procedures/selectors';
 
 const mapDispatchToProps = dispatch => ({
   actions: bindActionCreators({

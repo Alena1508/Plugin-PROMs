@@ -2,9 +2,9 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { Row, Col } from 'react-bootstrap';
 import _ from 'lodash/fp';
-import Switch from '../Switch';
-import { valuesAddons, valuesLabels, valuesNames } from '../../theme/plugins/Vitals/forms.config';
-import { serviceVitalsSigns } from '../../theme/plugins/Vitals/viltals-helpers.utils';
+import Switch from '../../../../form-fields/Switch';
+import { valuesAddons, valuesLabels, valuesNames } from '../../../../theme/plugins/Vitals/forms.config';
+import { serviceVitalsSigns } from '../../../../theme/plugins/Vitals/viltals-helpers.utils';
 
 export default class RecordsOfTablePopoverVitals extends PureComponent {
   static propTypes = {
